@@ -5,7 +5,6 @@ import 'package:bookly_app/Features/home/presentation/manger/newest_books_cubit/
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'Core/utils/service_locator.dart';
-import 'Features/home/presentation/manger/similar_books_cubit/similar_books_cubit.dart';
 import 'constants.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -16,6 +15,7 @@ void main() {
 
 class BooklyApp extends StatelessWidget {
   const BooklyApp({super.key});
+  // update
 
   @override
   Widget build(BuildContext context) {
